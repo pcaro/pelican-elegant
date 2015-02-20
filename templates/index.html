@@ -87,7 +87,7 @@
     <div class="row-fluid">
         <div class="{{css_class}}">
             <header>
-            <h1 id="recent-posts">{% trans %}Recent Posts{% endtrans %} <a id="allposts" href="{{ SITEURL }}/archives.html">all posts</a></h1>
+            <h1 id="recent-posts">{% trans %}Recent Posts{% endtrans %} <a id="allposts" href="{{ SITEURL }}/archives.html">{% trans %}all posts{% endtrans %}</a></h1>
             </header>
         <div class="recent-posts">
             {% for article in articles %}

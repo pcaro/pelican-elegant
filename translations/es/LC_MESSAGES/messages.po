@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-02-20 13:10+0100\n"
+"POT-Creation-Date: 2015-02-20 14:03+0100\n"
 "PO-Revision-Date: 2015-02-20 12:14+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -111,6 +111,10 @@ msgstr "Mis proyectos"
 msgid "Recent Posts"
 msgstr "Anotaciones recientes"
 
+#: templates/index.html:90
+msgid "all posts"
+msgstr "todas las anotaciones"
+
 #: templates/index.html:99
 msgid "posted in"
 msgstr "anotado en"
@@ -126,4 +130,65 @@ msgstr "Todas las etiquetas"
 #: templates/tags.html:8
 msgid "All tags used in the"
 msgstr "Todas las etiquetas usadas en"
+
+#: templates/includes/comments.html:20
+msgid "Comments"
+msgstr "Comentarios"
+
+#: templates/includes/disqus_scripts.html:58
+msgid "Please enable JavaScript to view the"
+msgstr "Por favor habilite JavaScript para ver los"
+
+#: templates/includes/disqus_scripts.html:58
+msgid "comments powered by Disqus"
+msgstr "comentarios proporcionados por Disqus"
+
+#: templates/includes/disqus_scripts.html:59
+msgid "comments powered by"
+msgstr "comentarios proporcionados por"
+
+#: templates/includes/footer.html:12
+msgid "Powered by"
+msgstr "Proporcionados por"
+
+#: templates/includes/footer.html:12
+msgid "by"
+msgstr "por"
+
+#: templates/includes/last_updated.html:7
+#: templates/includes/last_updated.html:12
+msgid "Last Updated"
+msgstr "Última actualización"
+
+#: templates/includes/multi_parts.html:13
+#: templates/includes/multi_parts.html:15
+msgid "Part"
+msgstr "Parte"
+
+#: templates/includes/share_links.html:11
+msgid "Share on Twitter"
+msgstr "Compartir en Twitter"
+
+#: templates/includes/share_links.html:13
+msgid "Share on Facebook"
+msgstr "Compartir en Facebook"
+
+#: templates/includes/share_links.html:15
+msgid "Share on Google Plus"
+msgstr "Compartir en Google Plus"
+
+#: templates/includes/share_links.html:17
+msgid "Share via Email"
+msgstr "Compartir vía correo electrónico"
+
+#: templates/includes/translations.html:4
+msgid "This post is also available in"
+msgstr "Esta entrada también está disponible en"
+
+#: templates/includes/translations.html:6
+msgid "and"
+msgstr "y"
+
+#~ msgid "comentarios proporcionados por Disqus"
+#~ msgstr ""
 
