@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
 {% block title %}
-All Tags · {{ super() }}
+{% trans %}All Tags{% endtrans %} · {{ super() }}
 {% endblock title %}
 
 {% block head_description %}
-All tags used in the {{ SITENAME|striptags|e }} blog.
+{% trans %}All tags used in the{% endtrans %} {{ SITENAME|striptags|e }} {% trans %}blog{% endtrans %}.
 {% endblock head_description %}
 
 {% block meta_tags_in_head %}

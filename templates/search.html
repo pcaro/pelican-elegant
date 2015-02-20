@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
 {% block title %}
-Search · {{ super() }}
+{% trans %}Search{% endtrans %} · {{ super() }}
 {% endblock title %}
 
 {% block head_description %}
-Search results for {{ SITENAME|striptags|e }} blog.
+{% trans %}Search results for{% endtrans %} {{ SITENAME|striptags|e }} {% trans %}blog{% endtrans %}.
 {% endblock head_description %}
 
 {% block meta_tags_in_head %}

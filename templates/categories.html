@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
 {% block title %}
-All Categories · {{ super() }}
+{% trans %}All Categories{% endtrans %} · {{ super() }}
 {% endblock title %}
 
 {% block head_description %}
-All categories of the {{ SITENAME|striptags|e }} blog. 
+{% trans %}All categories of the{% endtrans %} {{ SITENAME|striptags|e }} {% trans %}blog{% endtrans %}. 
 {% endblock head_description %}
 
 {% block meta_tags_in_head %}
@@ -32,7 +32,7 @@ All categories of the {{ SITENAME|striptags|e }} blog.
 {% block content %}
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="{{ SITEURL }}/categories.html">All Categories</a></h1>
+    <h1><a href="{{ SITEURL }}/categories.html">{% trans %}All Categories{% endtrans %}</a></h1>
     </header>
 </div>
 

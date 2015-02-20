@@ -10,9 +10,9 @@
         {% for part_article in article.metadata.parts_articles %}
             <li {% if part_article == article %}class="active-part"{% endif %}>
             {% if part_article != article %}
-            <a href="{{ SITEURL }}/{{ part_article.url }}" title="{{ part_article.title }}">Part {{loop.index}}</a>
+            <a href="{{ SITEURL }}/{{ part_article.url }}" title="{{ part_article.title }}">{% trans %}Part{% endtrans %} {{loop.index}}</a>
             {% else %}
-            Part {{loop.index}}
+            {% trans %}Part{% endtrans %} {{loop.index}}
             {% endif %}
             </li>
         {% endfor %}
